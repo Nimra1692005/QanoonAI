@@ -1,5 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import Groq from 'groq-sdk';
+
+// Dynamic import to avoid Edge runtime issues
+async function getGroqClient(apiKey: string) {
+  const { default: Groq } = await import('groq-sdk');
+  return new Groq({ apiKey });
+}
 
 const SYSTEM_PROMPT_EN = `You are QanoonAI, an expert AI legal assistant specializing in Pakistani law.
 You have comprehensive knowledge of:
@@ -44,7 +49,7 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const groq = new Groq({ apiKey });
+    const groq = await getGroqClient(apiKey);
 
     const systemPrompt = language === 'ur' ? SYSTEM_PROMPT_UR : SYSTEM_PROMPT_EN;
     const langInstruction = language === 'ur'
