@@ -41,6 +41,13 @@ export async function POST(req: NextRequest) {
     }
 
     const apiKey = process.env.GROQ_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({
+        answer: '⚠️ GROQ_API_KEY not set in Vercel environment variables. Please add it in Vercel Settings → Environment Variables.',
+        language: language || 'en',
+        sources: [],
+      });
+    }
 
     const groq = await getGroqClient(apiKey);
 
