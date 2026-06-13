@@ -40,7 +40,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Question too short' }, { status: 400 });
     }
 
-    const apiKey = process.env.GROQ_API_KEY || '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';
+    const apiKey = process.env.GROQ_API_KEY;
 
     const groq = await getGroqClient(apiKey);
 
