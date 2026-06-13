@@ -40,14 +40,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Question too short' }, { status: 400 });
     }
 
-    const apiKey = process.env.GROQ_API_KEY;
-    if (!apiKey) {
-      return NextResponse.json({
-        answer: '⚠️ AI service not configured. Please add GROQ_API_KEY to environment variables.\n\nFor legal help visit: supremecourt.gov.pk',
-        language: language || 'en',
-        sources: [],
-      });
-    }
+    const apiKey = process.env.GROQ_API_KEY || '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';
 
     const groq = await getGroqClient(apiKey);
 
