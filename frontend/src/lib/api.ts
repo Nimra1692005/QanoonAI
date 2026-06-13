@@ -1,16 +1,5 @@
-import axios from 'axios';
+// All API calls go to Next.js API routes — no separate backend needed!
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-
-const apiClient = axios.create({
-  baseURL: API_URL,
-  timeout: 30000,
-  headers: {
-    'Content-Type': 'application/json',
-  },
-});
-
-// Types
 export interface ChatResponse {
   answer: string;
   language: string;
@@ -32,66 +21,50 @@ export interface CaseSearchResponse {
     citation: string;
     summary: string;
     keywords: string[];
-    decision: 'Allowed' | 'Dismissed' | 'Remanded' | 'Settled';
+    area?: string;
+    decision: string;
   }>;
   total: number;
   query: string;
 }
 
-// Chat API
 export const sendChatMessage = async (
   question: string,
   language: 'en' | 'ur' = 'en'
 ): Promise<ChatResponse> => {
-  const response = await apiClient.post<ChatResponse>('/api/chat', {
-    question,
-    language,
+  const res = await fetch('/api/chat', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ question, language }),
   });
-  return response.data;
+  if (!res.ok) throw new Error(`Chat error: ${res.status}`);
+  return res.json();
 };
 
-// Document Generation API
 export const generateDocument = async (
   documentType: string,
   formData: Record<string, string>,
   language: 'en' | 'ur' = 'en'
 ): Promise<DocumentResponse> => {
-  const response = await apiClient.post<DocumentResponse>('/api/documents/generate', {
-    document_type: documentType,
-    form_data: formData,
-    language,
+  const res = await fetch('/api/documents/generate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ document_type: documentType, form_data: formData, language }),
   });
-  return response.data;
+  if (!res.ok) throw new Error(`Document error: ${res.status}`);
+  return res.json();
 };
 
-// Case Search API
 export const searchCases = async (
   query: string,
-  filters?: {
-    court?: string;
-    area?: string;
-    year?: string;
-  }
+  filters?: { court?: string; area?: string; year?: string }
 ): Promise<CaseSearchResponse> => {
   const params = new URLSearchParams({ query });
   if (filters?.court) params.append('court', filters.court);
   if (filters?.area) params.append('area', filters.area);
   if (filters?.year) params.append('year', filters.year);
 
-  const response = await apiClient.get<CaseSearchResponse>(
-    `/api/cases/search?${params.toString()}`
-  );
-  return response.data;
+  const res = await fetch(`/api/cases/search?${params.toString()}`);
+  if (!res.ok) throw new Error(`Search error: ${res.status}`);
+  return res.json();
 };
-
-// Health check
-export const healthCheck = async (): Promise<boolean> => {
-  try {
-    const response = await apiClient.get('/health');
-    return response.status === 200;
-  } catch {
-    return false;
-  }
-};
-
-export default apiClient;
