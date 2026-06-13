@@ -44,7 +44,8 @@ function ChatContent() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+  // Use Next.js API routes — no separate backend needed
+  const API_URL = '';
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -75,7 +76,7 @@ function ChatContent() {
     setShowSuggestions(false);
 
     try {
-      const res = await fetch(`${API_URL}/api/chat`, {
+      const res = await fetch(`/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question, language: lang }),
