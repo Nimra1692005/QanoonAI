@@ -1,0 +1,363 @@
+{
+  "constitution_articles": [
+    {
+      "article": "Article 9",
+      "title": "Security of Person",
+      "title_urdu": "شخصی تحفظ",
+      "text": "No person shall be deprived of life or liberty save in accordance with law.",
+      "text_urdu": "کسی شخص کو قانون کے مطابق ہی زندگی یا آزادی سے محروم کیا جا سکتا ہے۔"
+    },
+    {
+      "article": "Article 10",
+      "title": "Safeguards as to Arrest and Detention",
+      "title_urdu": "گرفتاری اور حراست کے تحفظات",
+      "text": "No person who is arrested shall be detained in custody without being informed of the grounds for such arrest, nor shall he be denied the right to consult and be defended by a legal practitioner of his choice.",
+      "text_urdu": "گرفتار شدہ کسی بھی شخص کو گرفتاری کی وجوہات بتائے بغیر حراست میں نہیں رکھا جائے گا، اور اسے اپنی پسند کے وکیل سے مشورہ کرنے کے حق سے محروم نہیں کیا جائے گا۔"
+    },
+    {
+      "article": "Article 10A",
+      "title": "Right to Fair Trial",
+      "title_urdu": "منصفانہ مقدمہ کا حق",
+      "text": "For the determination of his civil rights and obligations or in any criminal charge against him a person shall be entitled to a fair trial and due process.",
+      "text_urdu": "اپنے دیوانی حقوق اور ذمہ داریوں یا کسی فوجداری الزام کے تعین کے لیے ہر شخص منصفانہ سماعت کا حقدار ہے۔"
+    },
+    {
+      "article": "Article 14",
+      "title": "Inviolability of Dignity of Man",
+      "title_urdu": "انسانی وقار کی حرمت",
+      "text": "The dignity of man and, subject to law, the privacy of home, shall be inviolable.",
+      "text_urdu": "انسانی وقار اور قانون کے تابع، گھر کی رازداری ناقابل تعدی ہے۔"
+    },
+    {
+      "article": "Article 25",
+      "title": "Equality of Citizens",
+      "title_urdu": "شہریوں کی مساوات",
+      "text": "All citizens are equal before law and are entitled to equal protection of law.",
+      "text_urdu": "تمام شہری قانون کے سامنے برابر ہیں اور قانون کے یکساں تحفظ کے حقدار ہیں۔"
+    },
+    {
+      "article": "Article 184(3)",
+      "title": "Original Jurisdiction of Supreme Court",
+      "title_urdu": "سپریم کورٹ کا ابتدائی دائرہ اختیار",
+      "text": "The Supreme Court shall have jurisdiction to issue directions, orders or decrees as it deems necessary for enforcing fundamental rights.",
+      "text_urdu": "سپریم کورٹ کو بنیادی حقوق نافذ کرنے کے لیے احکامات اور فرامین جاری کرنے کا اختیار ہے۔"
+    }
+  ],
+  "legal_terms": [
+    {
+      "term_en": "FIR (First Information Report)",
+      "term_ur": "ایف آئی آر (پہلی اطلاعاتی رپورٹ)",
+      "definition": "A written document prepared by police when they receive information about the commission of a cognizable offence.",
+      "definition_ur": "پولیس کی طرف سے تیار کی جانے والی دستاویز جب انہیں کسی قابل ادراک جرم کی اطلاع ملے۔"
+    },
+    {
+      "term_en": "Bail",
+      "term_ur": "ضمانت",
+      "definition": "Temporary release of an accused person awaiting trial, sometimes on condition that a sum of money is lodged to guarantee their appearance in court.",
+      "definition_ur": "مقدمے کا انتظار کرنے والے ملزم کی عارضی رہائی، کبھی کبھی عدالت میں پیشی کی ضمانت کے لیے رقم جمع کروانے کی شرط پر۔"
+    },
+    {
+      "term_en": "Habeas Corpus",
+      "term_ur": "حبس بے جا",
+      "definition": "A writ requiring a person under arrest to be brought before a judge or into court to secure the person's release.",
+      "definition_ur": "گرفتار شخص کو عدالت میں پیش کرنے اور اس کی رہائی یقینی بنانے کا حکم۔"
+    },
+    {
+      "term_en": "Injunction",
+      "term_ur": "حکم امتناعی",
+      "definition": "A court order requiring a party to do or to refrain from doing a specific act.",
+      "definition_ur": "عدالتی حکم جس میں کسی فریق کو کوئی کام کرنے یا نہ کرنے کا حکم دیا جاتا ہے۔"
+    },
+    {
+      "term_en": "Affidavit",
+      "term_ur": "حلف نامہ",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court.",
+      "definition_ur": "حلف یا اقرار سے تصدیق شدہ تحریری بیان جو عدالت میں ثبوت کے طور پر استعمال ہو۔"
+    },
+    {
+      "term_en": "Power of Attorney",
+      "term_ur": "وکالت نامہ",
+      "definition": "A legal document authorizing one person to act on behalf of another.",
+      "definition_ur": "قانونی دستاویز جو ایک شخص کو دوسرے کی طرف سے کام کرنے کا اختیار دیتی ہے۔"
+    },
+    {
+      "term_en": "Plaintiff",
+      "term_ur": "مدعی",
+      "definition": "A person who brings a case against another in a court of law.",
+      "definition_ur": "وہ شخص جو عدالت میں کسی کے خلاف مقدمہ دائر کرے۔"
+    },
+    {
+      "term_en": "Defendant",
+      "term_ur": "مدعا علیہ",
+      "definition": "A person or entity against whom an action or claim is brought in a court.",
+      "definition_ur": "وہ شخص جس کے خلاف عدالت میں دعویٰ یا مقدمہ دائر کیا گیا ہو۔"
+    },
+    {
+      "term_en": "Contempt of Court",
+      "term_ur": "توہین عدالت",
+      "definition": "Disrespect shown to the court, such as disobedience of its orders or interfering with the administration of justice.",
+      "definition_ur": "عدالت کی توہین، جیسے اس کے احکامات کی نافرمانی یا انصاف کی فراہمی میں مداخلت۔"
+    },
+    {
+      "term_en": "Sub-Registrar",
+      "term_ur": "سب رجسٹرار",
+      "definition": "A government officer responsible for registering documents like sale deeds, lease agreements, and other property-related documents.",
+      "definition_ur": "سرکاری افسر جو فروخت نامہ، پٹہ معاہدہ اور دیگر جائیداد سے متعلق دستاویزات رجسٹر کرتا ہے۔"
+    }
+  ],
+  "family_law": {
+    "title": "Muslim Family Laws Ordinance, 1961",
+    "title_ur": "مسلم فیملی لاز آرڈیننس، ۱۹۶۱",
+    "key_provisions": [
+      {
+        "topic": "Marriage Registration",
+        "topic_ur": "نکاح رجسٹریشن",
+        "detail": "Every marriage must be registered with the Union Council. The Nikahnamah (marriage certificate) is the official document."
+      },
+      {
+        "topic": "Divorce (Talaq)",
+        "topic_ur": "طلاق",
+        "detail": "Husband must give written notice of talaq to the Chairman of Union Council. A reconciliation period of 90 days follows before divorce becomes effective."
+      },
+      {
+        "topic": "Khula",
+        "topic_ur": "خلع",
+        "detail": "Wife can seek dissolution of marriage through court by returning dower (mehr). The court must make efforts at reconciliation."
+      },
+      {
+        "topic": "Mehr (Dower)",
+        "topic_ur": "مہر",
+        "detail": "A mandatory payment from husband to wife that must be specified in the Nikahnamah. It becomes wife's absolute property."
+      },
+      {
+        "topic": "Child Custody",
+        "topic_ur": "بچوں کی تحویل",
+        "detail": "Mother has primary right of hizanat (custody) for sons up to 7 years and daughters until puberty. Father is natural guardian."
+      },
+      {
+        "topic": "Maintenance",
+        "topic_ur": "نفقہ",
+        "detail": "Husband is obligated to provide maintenance (nafaqa) to wife and children. Amount is determined by court based on financial capacity."
+      }
+    ]
+  },
+  "property_law": {
+    "title": "Transfer of Property Act, 1882",
+    "key_provisions": [
+      {
+        "topic": "Sale of Immovable Property",
+        "topic_ur": "غیر منقولہ جائیداد کی فروخت",
+        "detail": "A sale of immovable property worth Rs 100+ must be made by a registered instrument (sale deed). Registration is mandatory."
+      },
+      {
+        "topic": "Mortgage",
+        "topic_ur": "رہن",
+        "detail": "Transfer of interest in property to secure payment of money. Simple mortgage, usufructuary mortgage, and mortgage by deposit of title deeds are common types."
+      },
+      {
+        "topic": "Lease",
+        "topic_ur": "پٹہ/اجارہ",
+        "detail": "A lease for more than one year must be made by a registered instrument. Annual rent determines stamp duty."
+      },
+      {
+        "topic": "Gift (Hiba)",
+        "topic_ur": "ہبہ",
+        "detail": "Transfer of property without consideration. For immovable property, must be registered. Delivery of possession is essential for hiba."
+      }
+    ]
+  },
+  "criminal_law": {
+    "title": "Pakistan Penal Code, 1860 & Code of Criminal Procedure, 1898",
+    "key_provisions": [
+      {
+        "topic": "FIR Registration",
+        "topic_ur": "ایف آئی آر",
+        "detail": "Police must register FIR for cognizable offences. Section 154 CrPC. If police refuse, you can file complaint with DSP, SSP, or magistrate."
+      },
+      {
+        "topic": "Arrest",
+        "topic_ur": "گرفتاری",
+        "detail": "Police can arrest without warrant for cognizable offences. Arrested person must be informed of reasons, produced before magistrate within 24 hours."
+      },
+      {
+        "topic": "Bail in Bailable Offences",
+        "topic_ur": "قابل ضمانت جرائم میں ضمانت",
+        "detail": "Bail is a matter of right in bailable offences. Police or magistrate must grant bail."
+      },
+      {
+        "topic": "Bail in Non-Bailable Offences",
+        "topic_ur": "ناقابل ضمانت جرائم میں ضمانت",
+        "detail": "Bail is discretionary. High Court or Session Court can grant bail under Section 497 CrPC."
+      },
+      {
+        "topic": "Right to Legal Counsel",
+        "topic_ur": "قانونی مدد کا حق",
+        "detail": "Every accused has constitutional right to be defended by a lawyer of their choice. Article 10 of Constitution."
+      }
+    ]
+  },
+  "labour_law": {
+    "title": "Industrial Relations Act, 2012 & Payment of Wages Act, 1936",
+    "key_provisions": [
+      {
+        "topic": "Termination of Employment",
+        "topic_ur": "ملازمت کا خاتمہ",
+        "detail": "An employer must give one month notice or wages in lieu. Wrongful termination can be challenged before Labour Court."
+      },
+      {
+        "topic": "Minimum Wage",
+        "topic_ur": "کم از کم اجرت",
+        "detail": "Minimum wage is notified annually by the government. As of 2024, national minimum wage is PKR 32,000 per month."
+      },
+      {
+        "topic": "Overtime",
+        "topic_ur": "اضافی وقت",
+        "detail": "Workers are entitled to double rate for overtime work. Maximum 12 hours per day including overtime."
+      },
+      {
+        "topic": "Annual Leave",
+        "topic_ur": "سالانہ چھٹی",
+        "detail": "Employees with 1 year service are entitled to 14 days annual leave and 10 days casual leave."
+      },
+      {
+        "topic": "EOBI (End of Service Benefits)",
+        "topic_ur": "EOBI",
+        "detail": "Employees registered with EOBI are entitled to pension, old age benefit, and invalidity pension."
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "pk-001",
+      "title": "Suo Motu Case No. 1 of 2019 — Tenant Rights",
+      "court": "Supreme Court of Pakistan",
+      "year": "2019",
+      "citation": "2019 SCMR 1456",
+      "summary": "The Supreme Court took suo motu notice of large-scale illegal evictions in major cities. The court held that tenants cannot be evicted without following due process of law under the Rent Restriction Ordinance. The police cannot assist in forcible eviction without a court order.",
+      "keywords": ["tenant", "eviction", "rent", "property", "rights"],
+      "area": "Property Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-002",
+      "title": "Khan v. Khan — Custody of Minor Children",
+      "court": "Lahore High Court",
+      "year": "2021",
+      "citation": "2021 PLD (Lahore) 234",
+      "summary": "The court examined the question of custody of minor children after divorce. It was held that welfare of the child is the paramount consideration. Mother's right of hizanat (custody) exists for sons up to age 7 and daughters until puberty, but can be forfeited if mother remarries or is found unfit.",
+      "keywords": ["custody", "children", "divorce", "family", "hizanat"],
+      "area": "Family Law",
+      "decision": "Remanded"
+    },
+    {
+      "id": "pk-003",
+      "title": "Ali Corporation Ltd v. Labour Court — Wrongful Termination",
+      "court": "Sindh High Court",
+      "year": "2020",
+      "citation": "2020 CLC 1789",
+      "summary": "The court reaffirmed that workers are entitled to proper notice or wages in lieu thereof upon termination. The employer terminated 50 workers without notice during COVID-19. The court ordered reinstatement or payment of three months' salary as compensation.",
+      "keywords": ["labour", "termination", "wrongful", "employment", "wages", "reinstatement"],
+      "area": "Labour Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-004",
+      "title": "State v. Accused — Right to Bail in Non-Bailable Offence",
+      "court": "Islamabad High Court",
+      "year": "2022",
+      "citation": "2022 PCrLJ 567",
+      "summary": "The High Court granted bail to an accused charged with a non-bailable offence noting that prolonged pre-trial detention without evidence violates Article 9 and 10A of the Constitution. The court emphasized that bail should be the rule and jail the exception.",
+      "keywords": ["bail", "criminal", "FIR", "arrest", "detention", "constitutional rights"],
+      "area": "Criminal Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-005",
+      "title": "Fatima v. Ahmed — Mehr and Maintenance",
+      "court": "Federal Shariat Court",
+      "year": "2020",
+      "citation": "2020 PCrLJ FSC 89",
+      "summary": "The Federal Shariat Court held that mehr (dower) is a mandatory right of the wife and cannot be waived under duress. The court also reaffirmed that maintenance is the husband's Islamic obligation and includes food, clothing, and shelter.",
+      "keywords": ["mehr", "maintenance", "nafaqa", "wife", "divorce", "family", "Islamic law"],
+      "area": "Family Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-006",
+      "title": "Consumer v. XYZ Telecom — Consumer Protection",
+      "court": "Consumer Protection Court, Lahore",
+      "year": "2023",
+      "citation": "2023 CPC 123",
+      "summary": "The Consumer Protection Court awarded compensation to a consumer who was overcharged by a telecom company. The court held that consumers have the right to accurate billing and can seek compensation under the Consumer Protection Act for unfair trade practices.",
+      "keywords": ["consumer", "protection", "telecom", "overcharge", "rights", "compensation"],
+      "area": "Consumer Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-007",
+      "title": "Property Developer v. Homebuyers — Fraud in Real Estate",
+      "court": "Supreme Court of Pakistan",
+      "year": "2021",
+      "citation": "2021 SCMR 2001",
+      "summary": "The Supreme Court directed registration of all housing societies with the relevant authority and held that developers cannot sell plots without obtaining NOC. Purchasers were entitled to refund with interest for fraud and misrepresentation.",
+      "keywords": ["property", "fraud", "housing", "real estate", "refund", "NOC"],
+      "area": "Property Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-008",
+      "title": "Writ Petition — Police Refusal to Register FIR",
+      "court": "Lahore High Court",
+      "year": "2022",
+      "citation": "2022 PLD (Lahore) 456",
+      "summary": "The High Court directed the police to register an FIR after the complainant's multiple requests were refused. The court held that police cannot refuse to register FIR for cognizable offences and ordered departmental action against the SHO for misconduct.",
+      "keywords": ["FIR", "police", "criminal", "complaint", "registration", "SHO"],
+      "area": "Criminal Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-009",
+      "title": "Inheritance Dispute — Application of Muslim Personal Law",
+      "court": "Peshawar High Court",
+      "year": "2019",
+      "citation": "2019 YLR 1234",
+      "summary": "The court resolved a dispute regarding inheritance shares among siblings. It was held that under Muslim Personal Law (Sharia), daughters are entitled to half the share of sons. Customary denial of inheritance to daughters was declared un-Islamic and illegal.",
+      "keywords": ["inheritance", "family", "property", "will", "daughters", "Islamic law", "sharia"],
+      "area": "Family Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-010",
+      "title": "Cyber Crime — Social Media Harassment",
+      "court": "Special Court (Cyber Crimes), Karachi",
+      "year": "2023",
+      "citation": "2023 CLD Cyber 67",
+      "summary": "The Special Cyber Crimes Court convicted the accused under Prevention of Electronic Crimes Act 2016 (PECA) for online harassment and stalking of the complainant through social media. Sentenced to 1 year imprisonment and fine of Rs 1 million.",
+      "keywords": ["cyber", "crime", "harassment", "social media", "PECA", "internet"],
+      "area": "Cyber Law",
+      "decision": "Dismissed"
+    },
+    {
+      "id": "pk-011",
+      "title": "Contract Dispute — Business Agreement Enforcement",
+      "court": "Lahore High Court",
+      "year": "2021",
+      "citation": "2021 CLD 890",
+      "summary": "The court enforced a commercial contract between two parties and awarded damages for breach. The court held that a valid contract requires offer, acceptance, and consideration. Verbal contracts can be enforceable with sufficient evidence.",
+      "keywords": ["contract", "business", "breach", "damages", "commercial", "agreement"],
+      "area": "Civil Law",
+      "decision": "Allowed"
+    },
+    {
+      "id": "pk-012",
+      "title": "Khula Case — Judicial Dissolution of Marriage",
+      "court": "Family Court, Islamabad",
+      "year": "2022",
+      "citation": "2022 FLD 345",
+      "summary": "The Family Court granted khula (judicial divorce) to the wife on grounds of cruelty and incompatibility. The court held that once a wife establishes grounds for khula, the court has no discretion but to dissolve the marriage, even without husband's consent.",
+      "keywords": ["khula", "divorce", "family", "wife", "marriage dissolution", "cruelty"],
+      "area": "Family Law",
+      "decision": "Allowed"
+    }
+  ]
+}
