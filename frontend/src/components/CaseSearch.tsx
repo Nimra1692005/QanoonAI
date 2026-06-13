@@ -14,7 +14,8 @@ interface Case {
   citation: string;
   summary: string;
   keywords: string[];
-  decision: 'Allowed' | 'Dismissed' | 'Remanded' | 'Settled';
+  area?: string;
+  decision: string;
 }
 
 const COURTS = ['All Courts', 'Supreme Court', 'High Court', 'Federal Shariat Court', 'Sessions Court'];
